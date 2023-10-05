@@ -1,0 +1,79 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+}
+body{
+    background-color: #cfcfcf;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding-bottom: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.myBg{
+    /* background-image: url('https://wallpapershome.com/images/wallpapers/brown-bear-1920x1080-bear-tread-step-walk-forest-trees-foliage-blur-930.jpg'); */
+    background-image: url('../images/blured-bg-01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    position: relative;
+    padding: 0;
+}
+.myWave{
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.header{
+   /* background-image: linear-gradient( #333 , rgba(51, 51, 51, 0.6) , rgba(51, 51, 51, 0.1) ); */
+   /* background-image: linear-gradient(rgba(51, 51, 51, 0.2 ), rgba(51, 51, 51, 0.4)); */
+   background-color: #333;
+   background-repeat: no-repeat;
+   /* border-bottom: 2px solid white; */
+   box-shadow: rgba(80, 88, 80, 0.6) 0px 3px 8px 2px;
+}
+
+.navbar-nav a.nav-link{
+    border-bottom: 2px solid transparent;
+}
+.navbar-nav a.nav-link:hover{
+    font-weight: bold;
+    border-bottom: 2px solid #58d392;
+}
+.navbar-nav a.actual{
+    font-weight: bold;
+    border-bottom: 2px solid #408772;
+}
+
+.banner-content{
+    margin-top: 100px;
+}
+.navbar a{
+    color: white;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.content-frame{
+    /* position: relative;
+    top: -25vh; */
+    top: -15vh;
+}
+/* .header, .footer{
+    background-color: #323f3d !important;
+} */
+.author{
+    border-left: 2px solid #408772;
+}
