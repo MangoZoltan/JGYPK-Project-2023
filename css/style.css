@@ -1,3 +1,12 @@
+@media (max-width: 576px) {
+    .myBg{
+        margin-top: 220px;
+        height: inherit;
+    }
+    svg{
+        display: none;
+    }
+}
 html{
     height: 100vh;
     width: 100vw;
@@ -37,6 +46,10 @@ body{
     background-image: url('../images/blured-bg-transparent-01.png');
     background-position: center bottom;
     background-size: 100vw 60vh;
+}
+.subpage{
+    height: inherit!important;
+    background-size: 100vw 380px; 
 }
 .myBg img{
     height: 35vh;
